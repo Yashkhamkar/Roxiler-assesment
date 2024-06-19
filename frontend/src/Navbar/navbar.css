@@ -1,0 +1,39 @@
+.navbarx {
+  background-color: #007bff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.navbarx-nav {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+.nav-itemx {
+  margin-right: 10px;
+}
+
+.nav-itemx:last-child {
+  margin-right: 0; /* Remove margin from the last item */
+}
+
+.nav-linkx {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-linkx:hover {
+  background-color: #0de7d576;
+}
+
+.nav-linkx.active {
+  background-color: #555;
+}
